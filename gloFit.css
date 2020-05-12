@@ -5,7 +5,7 @@ body{
 #container{
     width: 1280px;
     margin: 0 auto;
-    background-color: cadetblue;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
     padding: 0 20px;
 }
 #header{
@@ -19,15 +19,16 @@ body{
 }
 
 #brand{
-    float: right;
+    
     padding-right: 20px;
+    
 }
 
 h1 a{
-    font-size: 125px;
-    font-weight: 200;
-    color: black;
-    text-decoration-style: double;
+    font-size: 150px;
+    font-weight:bold;
+    color: white;
+    text-decoration:none;
     font-style: italic
 }
 
@@ -37,7 +38,7 @@ h1 a{
 
 #menu{
     height: 70px;
-    background: black;
+    background:linear-gradient(#3D005C,#440097,#6A009E);
     padding: 15px 10px;
 }
 
@@ -68,13 +69,14 @@ ul{
 #menu ul li a:hover, #menu ul li a.active, .dropdown:hover .dropbtn {
     font-size: 20px;
     font-weight: bold;
+color:black;
 }
 
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: darkcyan;
+  background-color:#450098 ;
   min-width: 160px;
   z-index: 1;
 }
@@ -97,13 +99,20 @@ ul{
 
 #introduction{
     padding: 5px 0;
+    background: linear-gradient(#DBC5E9,#CDC8F9,#CCCAFF)
 }
 
 .column2{
-     height: 600px;
-    font-size: 40px;
-    color: brown;
-    border-right: 5px solid brown;
+     height: 820px;
+    font-size: 35px;
+    color:#450098;
+    
+    border-right: 5px solid #450098;
+    
     width: 700px;
     font-weight: bold;
+}
+#information{
+    font-weight:none;
+    font-size: 20px;
 }
