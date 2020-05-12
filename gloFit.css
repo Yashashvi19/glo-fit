@@ -1,0 +1,109 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+    }
+
+#container{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    padding: 0 20px;
+}
+#header{
+    height: 245px;
+    padding: 10px 0;
+}
+.column {
+  float: left;
+  width: 15%;
+  padding: 5.5px;
+}
+
+#brand{
+    float: right;
+    padding-right: 20px;
+}
+
+h1 a{
+    font-size: 125px;
+    font-weight: 200;
+    color: black;
+    text-decoration-style: double;
+    font-style: italic
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: black;
+    padding: 15px 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 10px 55px;
+    height: 30px;
+    border-right: 1px solid white;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a, .dropbtn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    color: white;
+}
+
+#menu ul li a:hover, #menu ul li a.active, .dropdown:hover .dropbtn {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkcyan;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown-content a:hover{
+    color: black !important;
+}
+
+#introduction{
+    padding: 5px 0;
+}
+
+.column2{
+     height: 600px;
+    font-size: 40px;
+    color: brown;
+    border-right: 5px solid brown;
+    width: 700px;
+    font-weight: bold;
+}
