@@ -1,26 +1,28 @@
 body{
     font: Arial, Helvetica, sans-serif;
-    }
+}
 
 #container{
     width: 1280px;
     margin: 0 auto;
-    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
     padding: 0 20px;
 }
+
 #header{
     height: 245px;
     padding: 10px 0;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
 }
+
 .column {
   float: left;
   width: 15%;
-  padding: 5.5px;
+  padding: 20px;
 }
 
 #brand{
-    
-    padding-right: 20px;
+    float: right;
+    padding-right: 150px; 
     
 }
 
@@ -40,6 +42,7 @@ h1 a{
     height: 70px;
     background:linear-gradient(#3D005C,#440097,#6A009E);
     padding: 15px 10px;
+    margin: 20px 0px;
 }
 
 ul{
@@ -116,3 +119,4 @@ color:black;
     font-weight:none;
     font-size: 20px;
 }
+
