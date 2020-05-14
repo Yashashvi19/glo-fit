@@ -8,3 +8,128 @@ body{
     padding: 0 20px;
 }
 
+#header{
+    height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+
+#page{
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#page a{
+    color: black;
+    text-decoration: none;
+}
+
+#brd{
+    float: right;
+    color: white;
+    font-size: 70px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+#row1{
+    margin: 20px 0;
+    height: 600px;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+}
+
+#whatIsBmi{
+    width: 570px;
+    float: left;
+    font-size: 20px;
+    padding: 10px; 
+}
+
+#BmiChart{
+    padding: 25px 10px;
+}
+
+#row2{
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    height: 350px;
+    padding: 10px;
+}
+
+#calculator{
+    width: 650px;
+    float: left;
+}
+
+#data p{
+    font-size: 30px;
+}
+
+.in{
+    background-color: darkcyan;
+    color: black;
+    padding: 7px 7px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.button{
+    background-color: darkcyan;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#result h1{
+    margin: 20px 0;
+    float: right;
+    padding-right: 470px;
+}
+#result ul{
+    float: left;
+    font-size: 30px;
+    margin: 0;
+}
+
+#result ul li{
+    padding-bottom: 10px;
+}
+
+#row3{
+    height: 550px;
+    margin: 20px 0;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    padding: 10px;
+}
+
+#row3 p{
+    font-size: 20px;
+}
+#row3 ul li{
+    font-size: 20px;
+}
+
+#row4{
+    height: 365px;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    padding: 10px;
+}
+
+#row4 p{
+    font-size: 20px;
+}
+#row4 ul li{
+    font-size: 20px;
+}
+
+#row5{
+    margin: 20px 0;
+     height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+

@@ -22,7 +22,7 @@ body{
 
 #brand{
     float: right;
-    padding-right: 150px; 
+    padding-right: 120px; 
     
 }
 
@@ -102,7 +102,7 @@ color:black;
 
 #introduction{
     padding: 5px 0;
-    background: linear-gradient(#DBC5E9,#CDC8F9,#CCCAFF);
+    background: linear-gradient(rgb(51,102,153),#DBC5E9,#CDC8F9,#CCCAFF);
     height: 950px;
 }
 
@@ -110,7 +110,7 @@ color:black;
     float: left;
      height: 600px;
     font-size: 40px;
-    color:#450098;
+    color: rgb(0,51,102);
     border-right: 5px solid #450098;
     width: 700px;
     font-weight: bold;

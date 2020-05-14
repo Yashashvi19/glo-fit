@@ -9,6 +9,102 @@
     
     <body>
         <div id="container">
+            <div id="header">
+                <div id="page">
+                    <a href="home.html">HOME  </a>--->>Know Your BMI
+                </div>
+                <div id="brd">GloFit
+                </div>
+            </div>
+            <div id="row1">
+            <div id="whatIsBmi">
+                <h1>What is BMI?</h1>
+                <p><b>Body Mass Index (BMI)</b> is a measurement of a person’s weight with respect to his or her height. It is more of an indicator than a direct measurement of a person’s total body fat.BMI, more often than not, correlates with total body fat. This means that as the BMI score increases, so does a person’s total body fat.<br><br>BMI in an individual is calculated by the use of a mathematical formula. It can also be estimated using tables in which one can match height in inches to weight in pounds to estimate BMI.<br><br>A <b>normal BMI score</b> is one that falls between <b>18.5 and 24.9</b>. This indicates that a person is within the normal weight range for his or her height. A BMI chart is used to categorize a person as underweight, normal, overweight, or obese.<br><br>BMI is used by healthcare professionals to screen for overweight and obese individuals. The BMI is used to assess a person’s health risks associated with obesity and overweight.</p>
+            </div>
+            <div id="BmiChart">
+                <img src="images/bmi.png" >
+            </div>
+            </div>
+            <div id="row2">
+            <div id="calculator">
+                <h1>BMI CALCULATOR:</h1>
+                <div id="data">
+                    <p>Enter your weight in kg: <input class="in" id="weight" type="number"></p>
+                    <p>Enter your height in metres: <input class="in" id="height" type="number"></p>
+                    <button class="button" onclick="calculateBMI()">Calculate</button>
+                    <p><b>"Healthy BMI range:&nbsp;18.5 - 24.9"</b></p>
+                </div>
+            </div>
+                <div id="result">
+                    <h1>RESULT:</h1>
+                <ul>
+                    <li>Your BMI (kg/m<sup>2</sup>) is:&nbsp;<b id="bmi"></b></li>
+                    <li>Category:&nbsp;<b id="cat"></b></li>
+                    <li>Healthy weight (kg) for the height:&nbsp;<b id="hw1"></b><b id="hw2"></b></li>
+                </ul>
+                </div>
+                <script>
+                function calculateBMI(){
+                    var weight=document.getElementById("weight").value;
+                    var height=document.getElementById("height").value;
+                    bmi=weight/(height*height);
+                    var s_bmi=document.getElementById("bmi");
+                    s_bmi.textContent=bmi.toFixed(2);
+                    var s_cat=document.getElementById("cat");
+                    if(bmi<18.50)
+                        cat="Underweight";
+                    else if(bmi<24.99)
+                        cat="Normal";
+                    else if(bmi<29.99)
+                        cat="Overweight";
+                    else
+                        cat="Obese";
+                    s_cat.textContent=cat;
+                    var hw1=height*height*18.5;
+                    var hw2=height*height*24.9;
+                    var s_hw1=document.getElementById("hw1");
+                    s_hw1.textContent=hw1.toFixed(2) + " - ";
+                    var s_hw2=document.getElementById("hw2");
+                    s_hw2.textContent=hw2.toFixed(2);
+                    }
+            </script>
+            </div>
+            <div id="row3">
+                <h1>Risks associated with being overweight:</h1>
+                <p>Being overweight increases the risk of a number of serious diseases and health conditions. Below is a list of said risks, according to the Centers for Disease Control and Prevention (CDC):</p>
+                <ul>
+                    <li>High blood pressure</li>
+                    <li>Higher levels of LDL cholesterol, which is widely considered "bad cholesterol," lower levels of HDL cholesterol, considered to be good cholesterol in moderation, and high levels of triglycerides</li>
+                    <li>Type II diabetes</li>
+                    <li>Coronary heart disease</li>
+                    <li>Stroke</li>
+                    <li>Gallbladder disease</li>
+                    <li>Osteoarthritis, a type of joint disease caused by breakdown of joint cartilage</li>
+                    <li>Sleep apnea and breathing problems</li>
+                    <li>Certain cancers (endometrial, breast, colon, kidney, gallbladder, liver)</li>
+                    <li>Low quality of life</li>
+                    <li>Mental illnesses such as clinical depression, anxiety, and others</li>
+                    <li>Body pains and difficulty with certain physical functions</li>
+                    <li>Generally, an increased risk of mortality compared to those with a healthy BMI</li>
+                </ul>
+                <p>As can be seen from the list above, there are numerous negative, in some cases fatal, outcomes that may result from being overweight. Generally, a person should try to maintain a BMI below 25 kg/m2, but ideally should consult their doctor to determine whether or not they need to make any changes to their lifestyle in order to be healthier.</p>
+            </div>
+            <div id="row4">
+                <h1>Risks associated with being underweight:</h1>
+                <p>Being underweight has its own associated risks, listed below:</p>
+                <ul>
+                <li>Malnutrition, vitamin deficiencies, anemia (lowered ability to carry blood vessels)</li>
+                    <li>Osteoporosis, a disease that causes bone weakness, increasing the risk of breaking a bone</li>
+                    <li>A decrease in immune function</li>
+                    <li>Growth and development issues, particularly in children and teenagers</li>
+                    <li>Possible reproductive issues for women due to hormonal imbalances that can disrupt the menstrual cycle. Underweight women also have a higher chance of miscarriage in the first trimester</li>
+                    <li>Potential complications as a result of surgery</li>
+                    <li>Generally, an increased risk of mortality compared to those with a healthy BMI</li>
+                     </ul>
+                <p>In some cases, being underweight can be a sign of some underlying condition or disease such as anorexia nervosa, which has its own risks. Consult your doctor if you think you or someone you know is underweight, particularly if the reason for being underweight does not seem obvious.</p>
+            </div>
+            <div id="row5">
+            </div>
         </div>
     </body>
     
