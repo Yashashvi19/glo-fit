@@ -102,21 +102,32 @@ color:black;
 
 #introduction{
     padding: 5px 0;
-    background: linear-gradient(#DBC5E9,#CDC8F9,#CCCAFF)
+    background: linear-gradient(#DBC5E9,#CDC8F9,#CCCAFF);
+    height: 950px;
 }
 
-.column2{
-     height: 820px;
-    font-size: 35px;
+#column2{
+    float: left;
+     height: 600px;
+    font-size: 40px;
     color:#450098;
-    
     border-right: 5px solid #450098;
-    
     width: 700px;
     font-weight: bold;
 }
 #information{
+    float: left;
     font-weight:none;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+#img{
+    padding-left: 730px;
+}
+
+.images{
+    padding-top: 10px;
+    padding-right: 15px;
+    float: left;
 }
 
