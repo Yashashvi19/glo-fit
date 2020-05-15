@@ -73,103 +73,74 @@ ul li{
     padding: 20px 10px;
 }
 
-#rec1{
+#drink1{
     height: 350px;
     background: linear-gradient(#630dc2,#396a9c,#3cec97);
     margin: 20px 0;
     padding: 10px;
 }
 
-#rec2{
-    height: 400px;
+#drink2{
+    height: 310px;
     background: linear-gradient(#3cec97,#06bf48);
     margin: 20px 0;
     padding: 10px;
 }
 
-
-
-#rec3{
+#drink3{
     height: 350px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
-    
-
-#rec4{
-    height: 330px;
+#drink4{
+    height: 370px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
-
-#rec5{
-    height: 330px;
-    background: linear-gradient(#03c048,#5cbc63);
+#drink5{
+    height: 350px;
+    background: linear-gradient(#74b62e,#aef35a);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
-#rec6{
+#drink6{
     height: 330px;
     background: linear-gradient(#74b62e,#aef35a);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
-#rec7{
-    height: 310px;
-    background: linear-gradient(#74b62e,#aef35a);
-    margin: 20px 0;
-    padding: 10px;
-}
-    
-
-#rec8{
-    height: 420px;
-    background: linear-gradient(#74b62e,#aef35a);
-    margin: 20px 0;
-    padding: 10px;
-}
-    
-
-#rec9{
-    height: 410px;
+#drink7{
+    height: 330px;
     background: linear-gradient(#aef35a,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
-
-#rec10{
-    height: 500px;
+#drink8{
+    height: 330px;
     background: linear-gradient(#5cbc63,#03c048);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
-#rec11{
-    height: 410px;
+#drink9{
+    height: 330px;
     background: linear-gradient(#06bf48,#3cec97);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
-#rec12{
-    height: 360px;
+#drink10{
+    height: 330px;
     background: linear-gradient(#3cec97,#396a9c,#630dc2);
     margin: 20px 0;
     padding: 10px;
 }
-    
 
 #row{
     margin: 20px 0;
