@@ -83,7 +83,7 @@ body{
 }
 
 #rec3{
-    height: 320px;
+    height: 350px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
     padding: 10px;
@@ -100,6 +100,29 @@ body{
 }
 
 #rec3 ul li{
+    font-size: 20px;
+    color: brown;
+    padding-bottom: 10px;
+}
+
+#rec4{
+    height: 310px;
+    background: linear-gradient(#03c048,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+#rec4 p{
+    font-size: 30px;
+    color: brown;
+    padding-left: 30px;
+}
+
+#rec4 h2{
+    padding-left: 30px;
+}
+
+#rec4 ul li{
     font-size: 20px;
     color: brown;
     padding-bottom: 10px;
