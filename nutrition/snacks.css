@@ -36,27 +36,51 @@ body{
     font-weight: bold;
 }
 
-#rec1{
-    height: 350px;
-    background: linear-gradient(#630dc2,#008b8b,#3cec97);
-    margin: 20px 0;
-    padding: 10px;
+h1{
+    float: left;
+    padding-right: 400px;
 }
-    
-#rec1 p{
+
+
+p{
     font-size: 30px;
     color: brown;
     padding-left: 30px;
+    float: left;
+    margin-top: 0;
 }
 
-#rec1 h2{
+h2{
     padding-left: 30px;
+    float: left;
+    padding-right: 500px;
+    margin-top: 0;
 }
 
-#rec1 ul li{
+ul{
+    width: 850px;
+}
+ul li{
     font-size: 20px;
     color: brown;
     padding-bottom: 10px;
+    float: left;
+}
+
+.img{
+    float: right;
+    padding: 30px 10px;
+}
+
+#rec1{
+    height: 350px;
+    background: linear-gradient(#630dc2,#396a9c,#3cec97);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#rec1 h1{
+    padding-right: 10px !important;
 }
 
 #rec2{
@@ -66,21 +90,7 @@ body{
     padding: 10px;
 }
 
-#rec2 p{
-    font-size: 30px;
-    color: brown;
-    padding-left: 30px;
-}
 
-#rec2 h2{
-    padding-left: 30px;
-}
-
-#rec2 ul li{
-    font-size: 20px;
-    color: brown;
-    padding-bottom: 10px;
-}
 
 #rec3{
     height: 350px;
@@ -89,41 +99,83 @@ body{
     padding: 10px;
 }
     
-#rec3 p{
-    font-size: 30px;
-    color: brown;
-    padding-left: 30px;
-}
-
-#rec3 h2{
-    padding-left: 30px;
-}
-
-#rec3 ul li{
-    font-size: 20px;
-    color: brown;
-    padding-bottom: 10px;
-}
 
 #rec4{
-    height: 310px;
+    height: 330px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
     
-#rec4 p{
-    font-size: 30px;
-    color: brown;
-    padding-left: 30px;
-}
 
-#rec4 h2{
-    padding-left: 30px;
-}
 
-#rec4 ul li{
-    font-size: 20px;
-    color: brown;
-    padding-bottom: 10px;
+#rec5{
+    height: 330px;
+    background: linear-gradient(#03c048,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#rec6{
+    height: 330px;
+    background: linear-gradient(#74b62e,#aef35a);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#rec7{
+    height: 310px;
+    background: linear-gradient(#74b62e,#aef35a);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#rec8{
+    height: 420px;
+    background: linear-gradient(#74b62e,#aef35a);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#rec9{
+    height: 410px;
+    background: linear-gradient(#aef35a,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+
+#rec10{
+    height: 410px;
+    background: linear-gradient(#5cbc63,#03c048);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#rec11{
+    height: 410px;
+    background: linear-gradient(#06bf48,#3cec97);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#rec12{
+    height: 410px;
+    background: linear-gradient(#3cec97,#396a9c,#630dc2);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+
+#row{
+    margin: 20px 0;
+     height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
 }
