@@ -1,0 +1,106 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header{
+    height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+
+#page{
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#page a{
+    color: black;
+    text-decoration: none;
+}
+
+#brd{
+    float: right;
+    color: white;
+    font-size: 70px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+#R1{
+    margin: 20px 0;
+    height: 390px;
+}
+
+#col1{
+    background-color: darkcyan;
+    float: left;
+    width: 300px;
+    height: 390px;
+}
+
+ #col2{
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    float: right;
+    width: 980px;
+    height: 390px;
+}
+
+#col2 #C1{
+    float: left;
+    width: 600px;
+    padding-left: 10px;
+}
+
+#col2 #C1 p{
+    font-size: 25px;
+}
+
+#col2 #C2{
+    padding: 46px 10px;
+    float: right;
+}
+
+#R2{
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    margin: 20px 0;  
+    padding: 20px;
+    height: 600px;
+}
+#R2 h1{
+    float: left;
+}
+
+#R2 #pic{
+    float: right;
+}
+
+#R2 #column1{
+    float: left;
+    width: 600px;
+}
+
+#R2 p{
+    font-size: 25px;
+}
+
+#R2 #column1 li{
+    font-size: 30px;
+}
+
+#R2 #column2{
+    float: right;
+}
+
+#R3{
+    margin: 20px 0;
+     height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
