@@ -1,0 +1,104 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header{
+    height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+
+#page {
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#page a{
+    color: black;
+    text-decoration: none;
+}
+
+#brd{
+    float: right;
+    color: white;
+    font-size: 70px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+#rec1{
+    height: 350px;
+    background: linear-gradient(#630dc2,#008b8b,#3cec97);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+#rec1 p{
+    font-size: 30px;
+    color: brown;
+    padding-left: 30px;
+}
+
+#rec1 h2{
+    padding-left: 30px;
+}
+
+#rec1 ul li{
+    font-size: 20px;
+    color: brown;
+    padding-bottom: 10px;
+}
+
+#rec2{
+    height: 400px;
+    background: linear-gradient(#3cec97,#06bf48);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#rec2 p{
+    font-size: 30px;
+    color: brown;
+    padding-left: 30px;
+}
+
+#rec2 h2{
+    padding-left: 30px;
+}
+
+#rec2 ul li{
+    font-size: 20px;
+    color: brown;
+    padding-bottom: 10px;
+}
+
+#rec3{
+    height: 320px;
+    background: linear-gradient(#03c048,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+    
+#rec3 p{
+    font-size: 30px;
+    color: brown;
+    padding-left: 30px;
+}
+
+#rec3 h2{
+    padding-left: 30px;
+}
+
+#rec3 ul li{
+    font-size: 20px;
+    color: brown;
+    padding-bottom: 10px;
+}

@@ -51,7 +51,7 @@ ul{
 
 #menu ul li{
     float: left;
-    padding: 10px 55px;
+    padding: 10px 40px;
     height: 30px;
     border-right: 1px solid white;
 }
@@ -101,14 +101,14 @@ color:black;
 }
 
 #introduction{
-    padding: 5px 0;
+    padding: 5px 10px;
     background: linear-gradient(rgb(51,102,153),#DBC5E9,#CDC8F9,#CCCAFF);
-    height: 950px;
+    height: 1000px;
 }
 
 #column2{
     float: left;
-     height: 600px;
+     height: 635px;
     font-size: 40px;
     color: rgb(0,51,102);
     border-right: 5px solid #450098;
@@ -123,6 +123,8 @@ color:black;
 
 #img{
     padding-left: 730px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .images{
@@ -131,3 +133,9 @@ color:black;
     float: left;
 }
 
+#contact{
+     margin: 20px 0;
+     height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+}

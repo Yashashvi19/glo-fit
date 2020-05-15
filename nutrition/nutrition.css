@@ -46,6 +46,19 @@ body{
     height: 390px;
 }
 
+#recipes ol li{
+    font-size: 30px;
+    color: black;
+    padding: 15px 0;
+}
+
+#recipes ol li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
  #col2{
     background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
     float: right;
