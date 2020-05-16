@@ -115,8 +115,24 @@ body{
     float: right;
 }
 
-#R3{
-    margin: 20px 0;
-     height: 100px;
-    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+.foot{
+    height: 110px;
+     background: linear-gradient(#9534C2,#E0919B,#EE9D7D,#FBA964,#9534C2);
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px
 }
