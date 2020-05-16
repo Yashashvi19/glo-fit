@@ -11,6 +11,7 @@ body{
 
 #container{
     width:1280px;
+    
     margin:0 20px;
 }
 
@@ -101,6 +102,9 @@ body{
 #row3-acne h2{
     text-decoration: underline !important;
 }
+#acne{
+    float: right;
+}
 
 
 
@@ -119,6 +123,9 @@ body{
 }
 #row4-detan h2{
     text-decoration: underline !important;
+}
+#detan{
+    float:right;
 }
 
 
@@ -160,6 +167,9 @@ body{
 #row6-glow h2{
     text-decoration: underline !important;
 }
+#glow{
+    float: right;
+}
 
 
 
@@ -179,6 +189,10 @@ body{
 #row7-knees h2{
     text-decoration: underline !important;
 }
+#knees{
+    float: right;
+}
+
 
 
 
@@ -197,6 +211,9 @@ body{
 }
 #row8-pores h2{
     text-decoration: underline !important;
+}
+#pores{
+    float:right;
 }
 
 
@@ -217,6 +234,9 @@ body{
 #row9-oily h2{
     text-decoration: underline !important;
 }
+#oily{
+    float: right;
+}
 
 
 
@@ -236,3 +256,28 @@ body{
 #row10-ankle h2{
     text-decoration: underline !important;
 }
+#heel{
+    float: right;
+}
+.foot{
+    height: 110px;
+     background: linear-gradient(#B683CF,#E0919B,#EE9D7D,#FBA964);
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px
+}
+
