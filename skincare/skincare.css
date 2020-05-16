@@ -259,3 +259,25 @@ body{
 #heel{
     float: right;
 }
+.foot{
+    height: 110px;
+     background: linear-gradient(#B683CF,#E0919B,#EE9D7D,#FBA964);
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px
+}
+
