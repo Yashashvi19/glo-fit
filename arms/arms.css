@@ -1,0 +1,66 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+    width:1300px;
+    
+    margin:0 5px;
+}
+
+#header{
+    height: 120px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+     margin-bottom: 20px;
+}
+
+#page{
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 44px;
+    padding-left: 10px;
+    font-weight: bold;
+   
+}
+
+#page a{
+    color: black;
+    text-decoration:none;
+}
+
+#brand{
+    float: right;
+    color: white;
+    font-size: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#vidarm{
+    padding-left: 280px;
+}
+
+#head1{
+    text-decoration: underline !important;
+    padding-left: 10px;
+}
+
+#arms{
+    
+     height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(#FEB0BD,#ECCABD,#D7EABE,#CAFEBF);
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
