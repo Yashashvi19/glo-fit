@@ -1,0 +1,122 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header{
+    height: 120px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+
+#page {
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 44px;
+    padding-left: 10px;
+}
+
+#page a{
+    color: black;
+    text-decoration: none;
+}
+
+#brd{
+    float: right;
+    color: white;
+    font-size: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    float: left;
+    width: 850px;
+}
+
+
+p{
+    font-size: 23px;
+    color: brown;
+    padding-left: 30px;
+    float: left;
+    margin-top: 0;
+    width: 850px;
+}
+
+h2{
+    padding-left: 30px;
+    float: left;
+    width: 850px;
+    margin-top: 0;
+}
+
+ul{
+    width: 850px;
+}
+ul li{
+    font-size: 20px;
+    color: brown;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.img{
+    float: right;
+    padding: 20px 10px;
+}
+
+#detox1{
+    height: 350px;
+    background: linear-gradient(#630dc2,#396a9c,#3cec97);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#detox2{
+    height: 310px;
+    background: linear-gradient(#3cec97,#06bf48);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#detox3{
+    height: 370px;
+    background: linear-gradient(#03c048,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#detox4{
+    height: 330px;
+    background: linear-gradient(#74b62e,#aef35a);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#detox5{
+    height: 330px;
+    background: linear-gradient(#06bf48,#3cec97);
+    margin: 20px 0;
+    padding: 10px;
+}
+#detox6{
+    height: 330px;
+    background: linear-gradient(#06bf48,#3cec97);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#detox7{
+    height: 330px;
+    background: linear-gradient(#3cec97,#396a9c,#630dc2);
+    margin: 20px 0;
+    padding: 10px;
+}
