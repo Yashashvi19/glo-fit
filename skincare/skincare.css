@@ -2,6 +2,13 @@ body{
     font: Arial, Helvetica, sans-serif;
 }
 
+
+#backpage{
+    width:auto;
+    height: auto;
+    background-color: #C9EEF2 ;
+}
+
 #container{
     width:1280px;
     margin:0 20px;
@@ -96,6 +103,7 @@ body{
 }
 
 
+
 #row4-detan{
     height=250px;
     font-size: 25px;
@@ -118,7 +126,7 @@ body{
     height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    background: linear-gradient(#B893D6,#A99AD8,#9F9DD8,#8DA5DA);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -131,13 +139,16 @@ body{
     text-decoration: underline !important;
 }
 
-
+#lip{
+    float: right;
+    
+}
 
 #row6-glow{
     height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    background: linear-gradient(#397CD6,#249AE4,#12B7F2,#02D0FE);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -156,7 +167,7 @@ body{
     height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    background: linear-gradient(#B893D6,#A99AD8,#9F9DD8,#8DA5DA);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -175,7 +186,7 @@ body{
     height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    background: linear-gradient(#4A5CA6,#4470B1,#3598C5,#29B9D5);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -194,7 +205,7 @@ body{
     height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    background: linear-gradient(#B893D6,#A99AD8,#9F9DD8,#8DA5DA);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -213,7 +224,7 @@ body{
     height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    background: linear-gradient(#4A5CA6,#4470B1,#3598C5,#29B9D5);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
