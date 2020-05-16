@@ -1,0 +1,227 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width:1280px;
+    margin:0 20px;
+}
+
+#header{
+    height: 120px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+
+#page{
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 44px;
+    padding-left: 10px;
+}
+
+#page a{
+    color: black;
+    text-decoration: none;
+}
+
+#brand{
+    float: right;
+    color: white;
+    font-size: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#row1{
+    margin: 7px 0;
+    height: 390px;
+}
+
+#matter{
+    height: 370px;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    font-size: 25px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.covid{
+    font-size:29px;
+    color: white;
+    font-weight: bold;
+}
+#circle{
+    float: right;
+}
+
+#row2-circle{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(#397CD6,#249AE4,#12B7F2,#02D0FE);
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#row2-circle h2{
+    text-decoration: underline !important;
+}
+
+#row3-acne{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(#B893D6,#A99AD8,#9F9DD8,#8DA5DA);
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row3-acne h2{
+    text-decoration: underline !important;
+}
+
+
+#row4-detan{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(#4A5CA6,#4470B1,#3598C5,#29B9D5);
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#row4-detan h2{
+    text-decoration: underline !important;
+}
+
+
+#row5-darklips{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row5-darklips h2{
+    text-decoration: underline !important;
+}
+
+
+
+#row6-glow{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row6-glow h2{
+    text-decoration: underline !important;
+}
+
+
+
+#row7-knees{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row7-knees h2{
+    text-decoration: underline !important;
+}
+
+
+
+#row8-pores{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row8-pores h2{
+    text-decoration: underline !important;
+}
+
+
+
+#row9-oily{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row9-oily h2{
+    text-decoration: underline !important;
+}
+
+
+
+#row10-ankle{
+    height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#row10-ankle h2{
+    text-decoration: underline !important;
+}
