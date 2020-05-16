@@ -49,6 +49,7 @@ body{
 
 #head1{
     text-decoration: underline !important;
+    padding-left: 10px;
 }
 
 #thighs{
@@ -84,4 +85,8 @@ body{
 }
 #head2{
      text-decoration: underline !important;
+    padding-left: 10px;
+}
+#calvesimg{
+    padding-left: 215px;
 }
