@@ -4,7 +4,7 @@ body{
 
 
 #container{
-    width:1300px;
+    width:1322px;
     
     margin:0 5px;
 }
@@ -82,6 +82,7 @@ body{
 }
 #vidcalves{
     padding-left: 280px;
+    padding-bottom: 20px;
 }
 #head2{
      text-decoration: underline !important;
@@ -89,4 +90,25 @@ body{
 }
 #calvesimg{
     padding-left: 215px;
+}
+.foot{
+    height: 110px;
+     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px
 }
