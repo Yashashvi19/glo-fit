@@ -49,13 +49,13 @@ body{
     height: 390px;
 }
 
-#recipes ol li{
+#recipes ul li{
     font-size: 30px;
     color: black;
     padding: 15px 0;
 }
 
-#recipes ol li a{
+#recipes ul li a{
     font-size: 30px;
     text-decoration: none;
     color: black;
