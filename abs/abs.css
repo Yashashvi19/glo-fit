@@ -40,14 +40,14 @@ body{
     font-weight: bold;
 }
 
-#vidarm{
+#abs1{
     padding-left: 30px;
 }
 
 
 
 
-#vidarm2{
+#abs2{
     float:right;
    padding-bottom: 30px;
     padding-right: 30px;
@@ -57,7 +57,7 @@ body{
     padding-left: 10px;
 }
 
-#arms{
+#abs{
     
      height=250px;
     font-size: 25px;
@@ -72,9 +72,7 @@ body{
     border-radius: 25px;
 }
 
-#armsimg{
-    padding-left: 155px;
-}
+
 
 .foot{
     height: 110px;
