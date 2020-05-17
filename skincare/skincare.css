@@ -6,7 +6,7 @@ body{
 #backpage{
     width:auto;
     height: auto;
-    background-color: #C9EEF2 ;
+     background-color:#BA9BC7 ;
 }
 
 #container{
@@ -26,6 +26,7 @@ body{
     font-size: 40px;
     padding-top: 44px;
     padding-left: 10px;
+    font-weight: bold;
 }
 
 #page a{
@@ -261,7 +262,7 @@ body{
 }
 .foot{
     height: 110px;
-     background: linear-gradient(#B683CF,#E0919B,#EE9D7D,#FBA964);
+     background: linear-gradient(#9534C2,#E0919B,#EE9D7D,#FBA964,#9534C2);
 }
 
 #quote{

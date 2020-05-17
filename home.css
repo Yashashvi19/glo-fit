@@ -16,13 +16,13 @@ body{
 
 .column {
   float: left;
-  width: 15%;
-  padding: 20px;
+  width: auto;
+  padding: 7px;
 }
 
 #brand{
     float: right;
-    padding-right: 120px; 
+    padding-right: 100px; 
     
 }
 
@@ -119,6 +119,7 @@ color:black;
     float: left;
     font-weight:none;
     font-size: 22px;
+    
 }
 
 #img{
