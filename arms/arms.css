@@ -49,8 +49,9 @@ body{
 
 #vidarm2{
     float:right;
-   padding-bottom: 30px;
+
     padding-right: 30px;
+    
 }
 #head1{
     text-decoration: underline !important;
@@ -72,8 +73,12 @@ body{
     border-radius: 25px;
 }
 
+#mid{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #armsimg{
-    padding-left: 155px;
+    padding-left: 120px;
 }
 
 .foot{
