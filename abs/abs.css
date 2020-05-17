@@ -42,6 +42,7 @@ body{
 
 #abs1{
     padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -49,8 +50,8 @@ body{
 
 #abs2{
     float:right;
-   padding-bottom: 30px;
-    padding-right: 30px;
+   padding-right: 30px;
+    padding-bottom: 20px;
 }
 #head1{
     text-decoration: underline !important;
@@ -62,7 +63,7 @@ body{
      height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(#F7827D,#FFB953,#FFC856,#F9D889);
+    background: linear-gradient(#79FFD4,#88FFB7,#88FFB7,#9AFF94,#A0FF86,#A7FF79);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -72,7 +73,16 @@ body{
     border-radius: 25px;
 }
 
-
+#absimg{
+    padding-left: 150px;
+}
+#im1{
+    padding-right: 10px;
+    
+}
+#im2{
+    padding-right: 10px;
+}
 
 .foot{
     height: 110px;
