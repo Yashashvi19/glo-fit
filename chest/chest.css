@@ -41,7 +41,7 @@ body{
 }
 
 #imgwo{
-    padding-left: 190px;
+    padding-left: 130px;
 }
 
 
@@ -61,7 +61,7 @@ body{
      height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(#9044A8,#C03664,#FF077B,#FF4D39,#FF6D1D,#FE8D01);
+    background: linear-gradient(#9044A8,#CE7FC2,#A78CCE,#7EA4CC,#4EBEC8);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -75,7 +75,7 @@ body{
       height=250px;
     font-size: 25px;
     color: black;
-    background: linear-gradient(#F9A418,#FFD001,#C6A43D,#98B971,#44DECC);
+    background: linear-gradient(#129C8E,#27CA85,#36EB7E);
      padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -93,9 +93,16 @@ body{
     padding-left: 10px;
 }
 #imgchest{
-    padding-left: 140px;
+    padding-left: 80px;
 }
-
+#mid1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#mid2{
+    padding-left: 23px;
+    padding-right: 23px;
+}
 
 
 .foot{
