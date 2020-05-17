@@ -1,0 +1,121 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+    width:1322px;
+    
+    margin:0 5px;
+}
+
+#header{
+    height: 120px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+     margin-bottom: 20px;
+}
+
+#page{
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 44px;
+    padding-left: 10px;
+    font-weight: bold;
+   
+}
+
+#page a{
+    color: black;
+    text-decoration:none;
+}
+
+#brand{
+    float: right;
+    color: white;
+    font-size: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#imgwo{
+    padding-left: 190px;
+}
+
+
+
+#breavid{
+    padding-left: 350px;
+    padding-bottom: 20px;
+}
+
+#head1{
+    text-decoration: underline !important;
+    padding-left: 10px;
+}
+
+#breast{
+    
+     height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(#9044A8,#C03664,#FF077B,#FF4D39,#FF6D1D,#FE8D01);
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+
+#chest{
+      height=250px;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient(#F9A418,#FFD001,#C6A43D,#98B971,#44DECC);
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+     border: 1px solid white;
+    border-radius: 25px;
+}
+#chestvid{
+    padding-left: 350px;
+    padding-bottom: 20px;
+}
+#head2{
+     text-decoration: underline !important;
+    padding-left: 10px;
+}
+#imgchest{
+    padding-left: 140px;
+}
+
+
+
+.foot{
+    height: 110px;
+     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px
+}
