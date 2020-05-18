@@ -122,7 +122,7 @@ ul li{
 }
 .foot{
     height: 110px;
-     background: linear-gradient(#9534C2,#E0919B,#EE9D7D,#FBA964,#9534C2);
+     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
 }
 
 #quote{
@@ -131,7 +131,7 @@ ul li{
     color: black;
     font-size: 40px;
      padding-left: 100px;
-    padding-top: 0.3px;
+    padding-top: 30px;
     padding-bottom: 4.8px;
     float:left;
 }
