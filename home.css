@@ -7,10 +7,10 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
-
-#content{
-    height: 20px;
+#user, #user a{
+    height: 50px;
 }
+
 
 #header{
     height: 245px;
@@ -41,6 +41,7 @@ h1 a{
 .clear{
     clear: both;
 }
+
 
 #menu{
     height: 70px;
