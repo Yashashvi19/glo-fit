@@ -8,6 +8,10 @@ body{
     padding: 0 20px;
 }
 
+#content{
+    height: 20px;
+}
+
 #header{
     height: 245px;
     padding: 10px 0;
@@ -27,7 +31,7 @@ body{
 }
 
 h1 a{
-    font-size: 150px;
+    font-size: 170px;
     font-weight:bold;
     color: white;
     text-decoration:none;
@@ -36,14 +40,6 @@ h1 a{
 
 .clear{
     clear: both;
-}
-
-form,.user, .user a{
-    margin: 20px 0;
-     height: 100px;
-    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
-    font-size: 30px;
-    color: black;
 }
 
 #menu{

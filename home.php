@@ -33,6 +33,11 @@
           ?>
       	</p>
   	<?php endif ?>
+                <!-- logged in user information -->
+    <?php  if (isset($_SESSION['username'])) : ?>
+    	<p style="float: left;">Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+    	<p style="float: right;"> <a href="login.php?logout='1'">logout</a> </p>
+    <?php endif ?>
             </div>
             <div id="header">
                 <div class="column">
@@ -53,14 +58,6 @@
                 <div class="clear">
                 </div>
             </div>
-            
-            <div class="user">
-      <!-- logged in user information -->
-    <?php  if (isset($_SESSION['username'])) : ?>
-    	<p style="float: left;">Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p style="float: right;"> <a href="login.php?logout='1'">logout</a> </p>
-    <?php endif ?>
-</div>
             <div id="menu">
                 <ul>
                     <li><a href="#home" class="active">HOME</a></li>
