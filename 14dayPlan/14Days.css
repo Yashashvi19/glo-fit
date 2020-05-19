@@ -55,6 +55,12 @@ body{
     
 }
 
+.whole h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .c1{
   
     font-size: 20px;
@@ -70,14 +76,21 @@ body{
    
     font-size: 20px;
     color: black;
-    
     padding-top: 30px;
     padding-right: 6px;
-    ;
 }
 ul{
     list-style-type: none;
 }
+.videos{
+    height: 1000px;
+    background:linear-gradient(#F77D7D,#FBC284,#FBD585,#C9FDD8,#78FFD5,#8AFFB2,#99FF94);
+}
+.work {
+    margin: 50px; 
+    float: right;
+}
+
 
 
 
