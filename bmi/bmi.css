@@ -132,6 +132,7 @@ body{
 .foot{
     height: 110px;
      background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
+    margin-top: 20px;
 }
 
 #quote{

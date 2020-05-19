@@ -77,8 +77,8 @@
                         <!-- workout has dropdown options for body part wise exercise -->
                         <a href="abs/abs.html">Abs and Core Exercises</a>
                         <a href="arms/arms.html">Arm Exercises</a>
-                        <a href="#">Back Exercises</a>
-                        <a href="#">Chest Exercises</a>
+                        <a href="back/back.html">Back Exercises</a>
+                        <a href="chest/chest.html">Chest Exercises</a>
                         <a href="legs/legs.html">Leg Exercises</a>
                         <a href="shoulder/shoulder.html">Shoulder Exercises</a>
                         </div></li>
@@ -94,7 +94,7 @@
                 <div id="information">
                     <p>Due to the current covid-19 outbreak, all of us are stuck at our homes and our fitness is definitely taking a backseat. Our runners are unable to go running and our fitness enthusiasts, helplessly, can't hit the gym anytime soon. As we all know, the fitness centres and gymnasiums won't be reopening anytime soon, so lets not let it take a toll on our fitness. As the wise men say, "HEALTH IS WEALTH". <br><br>
                     Our website helps you achieve exactly that!<br><br>
-                    With GloFit, you can get easy access to the different exercises and workouts for toning different parts of your body. Easy tutorials shall help you master these. We even provide you with some healthy food and drinks recipes that shall help you boost your workout regime and show better results.Along with all the above mentioned facilities, we also provide you with some easy skin care home remedies that would help you get glowing skin naturally at home.What would be better than tackling your skin issues in the most natural,harmless and inexpensive way, sitting at home? <br>Awareness about our own body is crutial and hence a BMI calculator is provided for you along with many workout plans (both short term and long term) that you can subscribe to, for better results.</p>
+                    With GloFit, you can get easy access to the different exercises and workouts for toning different parts of your body. Easy tutorials shall help you master these. We even provide you with some healthy food and drinks recipes that shall help you boost your workout regime and show better results.Along with all the above mentioned facilities, we also provide you with some easy skin care home remedies that would help you get glowing skin naturally at home.What would be better than tackling your skin issues in the most natural,harmless and inexpensive way, sitting at home? <br>Awareness about our own body is crutial and hence a BMI calculator is provided for you along with a 14-day workout and diet plan, for better results.<a href="14dayPlan/14Days.html">Click here</a> and try our 14-day routine.</p>
                     </div>
                 </div>
                 <div id="img">
@@ -102,7 +102,6 @@
                     
                     <img src="images/img2.jpg" width="500px" height="300px">
                     <!-- exercise images added -->
-
                 </div>
                 <div class="images">
                     <img src="images/images2.jpg" width="435px" heigth="460px">
