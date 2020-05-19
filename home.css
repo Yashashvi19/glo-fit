@@ -26,6 +26,10 @@ body{
     
 }
 
+#about{
+    color: white;
+}
+
 h1 a{
     font-size: 150px;
     font-weight:bold;
@@ -103,7 +107,7 @@ color:black;
 #introduction{
     padding: 5px 10px;
     background: linear-gradient(rgb(51,102,153),#DBC5E9,#CDC8F9,#CCCAFF);
-    height: 1000px;
+    height: 1160px;
 }
 
 #column2{
@@ -127,9 +131,12 @@ color:black;
     padding-bottom: 20px;
     padding-top: 20px;
 }
+#here{
+    color:white;
+}
 
 .images{
-    padding-top: 10px;
+    padding-top: 140px;
     padding-right: 15px;
     float: left;
 }
