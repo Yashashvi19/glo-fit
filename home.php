@@ -17,7 +17,7 @@
     <head>
         <meta charset="utf-8">
         <title>Glo Fit</title>
-        // title to page is designed 
+        <!-- title to page is designed -->
         <meta name="viewport" content="width=device-width, initial scale=1.0, user-scale=yes">
         <link rel="stylesheet" href="home.css?v=<?php echo time(); ?>">
     </head>
@@ -57,24 +57,24 @@
                 </div>
                     <div class="column">
                         <img src="images/homeimg.jpg" width="210px" height="200px">
-                        // images added to left to the heading glofit 
+                        <!-- images added to left to the heading glofit -->
                     </div>
                     <div id="brand">
                         <h1><a href="#">GloFit</a></h1>
-                        // heading glofit is added 
+                        <!-- heading glofit is added -->
                 </div>
                 <div class="clear">
                 </div>
             </div>
             
             <div id="menu">
-                // menu of several taps is created
+                <!-- menu of several taps is created -->
                 <ul>
                     <li><a href="#home" class="active">HOME</a></li>
                     <li class="dropdown">
                         <a href="#workouts" class="dropbtn">WORKOUTS</a>
                     <div class="dropdown-content">
-                        // workout has dropdown options for body part wise exercise
+                        <!-- workout has dropdown options for body part wise exercise -->
                         <a href="abs/abs.html">Abs and Core Exercises</a>
                         <a href="arms/arms.html">Arm Exercises</a>
                         <a href="#">Back Exercises</a>
@@ -90,7 +90,7 @@
             </div>
             <div id="introduction">
                 <div id="column2">ABOUT US:
-                    // to tell everyone the motive of our website
+                    <!-- to tell everyone the motive of our website -->
                 <div id="information">
                     <p>Due to the current covid-19 outbreak, all of us are stuck at our homes and our fitness is definitely taking a backseat. Our runners are unable to go running and our fitness enthusiasts, helplessly, can't hit the gym anytime soon. As we all know, the fitness centres and gymnasiums won't be reopening anytime soon, so lets not let it take a toll on our fitness. As the wise men say, "HEALTH IS WEALTH". <br><br>
                     Our website helps you achieve exactly that!<br><br>
@@ -101,7 +101,7 @@
                     <img src="images/img1.jpg" width="500px" height="300px">
                     
                     <img src="images/img2.jpg" width="500px" height="300px">
-                    // exercise images added
+                    <!-- exercise images added -->
 
                 </div>
                 <div class="images">
@@ -122,7 +122,7 @@
            <div id="pic">
            <img src="covid.jpeg" width= "150px" height="100px">
            </div>
-        // footer added to page saying stay home stay safe
+        <!-- footer added to page saying stay home stay safe -->
         
         
         </footer>
