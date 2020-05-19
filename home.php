@@ -85,7 +85,7 @@
                     <li><a href="nutrition/nutrition.html">NUTRITION</a></li>
                     <li><a href="skincare/skincare.html">SKIN CARE</a></li>
                     <li><a href="bmi/bmi.html">KNOW YOUR BMI</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="contact/contact.html">CONTACT US</a></li>
                 </ul>
             </div>
             <div id="introduction">
