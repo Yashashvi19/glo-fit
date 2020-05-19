@@ -1,0 +1,86 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1280px;
+    height: 640px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(105,2,199),rgb(51,102,153),rgb(134,149,192));
+    border: 5px solid black;
+}
+
+#brand{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 250px;
+    color: pink;
+    font-weight: bold;
+    float: left;
+    width: 700px;
+    height: 640px;
+    padding-top: 100px;
+}
+
+.header {
+  width: 30%;
+  margin-top:40px;
+  margin-left: 50px;
+  color: white;
+  background: rebeccapurple;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  float: left;
+}
+form{
+  width: 30%;
+  margin-left: 50px;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  float: left;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}

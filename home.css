@@ -7,6 +7,10 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
+#user, #user a{
+    height: 50px;
+}
+
 
 #header{
     height: 245px;
@@ -27,7 +31,7 @@ body{
 }
 
 h1 a{
-    font-size: 150px;
+    font-size: 170px;
     font-weight:bold;
     color: white;
     text-decoration:none;
@@ -37,6 +41,7 @@ h1 a{
 .clear{
     clear: both;
 }
+
 
 #menu{
     height: 70px;
@@ -51,7 +56,7 @@ ul{
 
 #menu ul li{
     float: left;
-    padding: 10px 40px;
+    padding: 10px 45px;
     height: 30px;
     border-right: 1px solid white;
 }
@@ -108,7 +113,7 @@ color:black;
 
 #column2{
     float: left;
-     height: 635px;
+     height: 622px;
     font-size: 40px;
     color: rgb(0,51,102);
     border-right: 5px solid #450098;
@@ -155,9 +160,4 @@ color:black;
     padding-bottom: 3px
 }
 
-#contact{
-     margin: 20px 0;
-     height: 100px;
-    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
-}
 
