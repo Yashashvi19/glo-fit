@@ -1,14 +1,39 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: login.php");
+  }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Glo Fit</title>
         <meta name="viewport" content="width=device-width, initial scale=1.0, user-scale=yes">
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="home.css?v=<?php echo time(); ?>">
     </head>
     
     <body>
         <div id="container">
+            <div class="content">
+  	<!-- notification message -->
+  	<?php if (isset($_SESSION['success'])) : ?>
+      	<p>
+          <?php 
+          	echo $_SESSION['success']; 
+          	unset($_SESSION['success']);
+          ?>
+      	</p>
+  	<?php endif ?>
+            </div>
             <div id="header">
                 <div class="column">
                         
@@ -28,6 +53,14 @@
                 <div class="clear">
                 </div>
             </div>
+            
+            <div class="user">
+      <!-- logged in user information -->
+    <?php  if (isset($_SESSION['username'])) : ?>
+    	<p style="float: left;">Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+    	<p style="float: right;"> <a href="login.php?logout='1'">logout</a> </p>
+    <?php endif ?>
+</div>
             <div id="menu">
                 <ul>
                     <li><a href="#home" class="active">HOME</a></li>
@@ -36,24 +69,23 @@
                     <div class="dropdown-content">
                         <a href="abs/abs.html">Abs and Core Exercises</a>
                         <a href="arms/arms.html">Arm Exercises</a>
-                        <a href="back/back.html">Back and Hip Exercises</a>
-                        <a href="chest/chest.html">Chest Exercises</a>
+                        <a href="#">Back Exercises</a>
+                        <a href="#">Chest Exercises</a>
                         <a href="legs/legs.html">Leg Exercises</a>
                         <a href="shoulder/shoulder.html">Shoulder Exercises</a>
                         </div></li>
                     <li><a href="nutrition/nutrition.html">NUTRITION</a></li>
                     <li><a href="skincare/skincare.html">SKIN CARE</a></li>
                     <li><a href="bmi/bmi.html">KNOW YOUR BMI</a></li>
-                    <li><a href="#plans">SUBSCRIPTION PLANS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
                 </ul>
             </div>
             <div id="introduction">
                 <div id="column2">ABOUT US:
                 <div id="information">
-                    <p>You are the only one who can limit your greatness!<br>
-                    Due to the current covid-19 outbreak, all of us are stuck at our homes and our fitness is definitely taking a backseat. Our runners are unable to go running and our fitness enthusiasts, helplessly, can't hit the gym anytime soon. The fitness centres and gymnasiums won't be reopening anytime soon. So lets not let it take a toll on our fitness. As the wise men say, "HEALTH IS WEALTH". <br><br>
+                    <p>Due to the current covid-19 outbreak, all of us are stuck at our homes and our fitness is definitely taking a backseat. Our runners are unable to go running and our fitness enthusiasts, helplessly, can't hit the gym anytime soon. As we all know, the fitness centres and gymnasiums won't be reopening anytime soon, so lets not let it take a toll on our fitness. As the wise men say, "HEALTH IS WEALTH". <br><br>
                     Our website helps you achieve exactly that!<br><br>
-                    With GloFit, you can get easy access to the different exercises and workouts for toning different parts of your body. Easy tutorials shall help you master these. We even provide you with some healthy food and drinks recipes that shall help you boost your workout regime and show better results.Along with all the above mentioned facilities, we also provide you with some easy skin care home remedies that would help you get glowing skin naturally at home.What would be better than tackling your skin issues in the most natural,harmless and inexpensive way, sitting at home? <br>Awareness about our own body is crutial and hence a BMI calculator is provided for you along with many workout plans (both short term and long term) that you can subscribe to, for better results.<br><br>SO WITHOUT FURTHER ADO, LET'S GET STARTED...</p>
+                    With GloFit, you can get easy access to the different exercises and workouts for toning different parts of your body. Easy tutorials shall help you master these. We even provide you with some healthy food and drinks recipes that shall help you boost your workout regime and show better results.Along with all the above mentioned facilities, we also provide you with some easy skin care home remedies that would help you get glowing skin naturally at home.What would be better than tackling your skin issues in the most natural,harmless and inexpensive way, sitting at home? <br>Awareness about our own body is crutial and hence a BMI calculator is provided for you along with many workout plans (both short term and long term) that you can subscribe to, for better results.</p>
                     </div>
                 </div>
                 <div id="img">
@@ -71,8 +103,6 @@
                 <div class="images">
                 <img src="images/images3.jpg">
                 </div>
-            </div>
-            <div id="contact">
             </div>
 <footer class="foot">
         <div id="quote">
