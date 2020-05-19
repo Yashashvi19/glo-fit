@@ -65,9 +65,7 @@ body{
   
     font-size: 20px;
     color: black;
-  
     float:left;
-    
     padding-top: 30px;
     padding-left: 10px;
     
@@ -83,12 +81,35 @@ ul{
     list-style-type: none;
 }
 .videos{
-    height: 1000px;
+    height: 900px;
     background:linear-gradient(#F77D7D,#FBC284,#FBD585,#C9FDD8,#78FFD5,#8AFFB2,#99FF94);
 }
 .work {
     margin: 50px; 
     float: right;
+}
+
+.foot{
+    height: 110px;
+     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
+    margin-top: 20px;
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px
 }
 
 
