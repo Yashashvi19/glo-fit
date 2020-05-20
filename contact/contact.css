@@ -1,0 +1,67 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header{
+    height: 120px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
+}
+
+#page{
+    float: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 44px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#page a{
+    color: black;
+    text-decoration: none;
+}
+
+#brd{
+    float: right;
+    color: white;
+    font-size: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.whole{
+     background:linear-gradient(#F77D7D,#FBC284,#FBD585,#C9FDD8,#78FFD5,#8AFFB2,#99FF94); 
+     margin: 20px 0;
+    padding: 0 20px;
+    font-size: 30px;
+}
+
+.foot{
+    height: 110px;
+     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
+}
+
+#quote{
+    font-weight: 600;
+    text-decoration: bold !important;
+    color: black;
+    font-size: 40px;
+     padding-left: 100px;
+    padding-top: 0.3px;
+    padding-bottom: 4.8px;
+    float:left;
+}
+#pic{
+    float:right;
+      padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
