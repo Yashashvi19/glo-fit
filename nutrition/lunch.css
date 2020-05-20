@@ -108,34 +108,62 @@ ul li{
 }
 
 #lunch6{
-    height: 320px;
+    height: 330px;
     background: linear-gradient(#74b62e,#aef35a);
     margin: 20px 0;
     padding: 10px;
 }
 
 #lunch7{
+    height: 388px;
+    background: linear-gradient(#74b62e,#aef35a);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#lunch8{
+    height: 320px;
+    background: linear-gradient(#74b62e,#aef35a);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#lunch9{
     height: 330px;
     background: linear-gradient(#aef35a,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
 
-#lunch8{
+#lunch10{
+    height: 410px;
+    background: linear-gradient(#aef35a,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#lunch11{
+    height: 330px;
+    background: linear-gradient(#aef35a,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#lunch12{
     height: 330px;
     background: linear-gradient(#5cbc63,#03c048);
     margin: 20px 0;
     padding: 10px;
 }
 
-#lunch9{
+#lunch13{
     height: 350px;
     background: linear-gradient(#06bf48,#3cec97);
     margin: 20px 0;
     padding: 10px;
 }
 
-#lunch10{
+#lunch14{
     height: 330px;
     background: linear-gradient(#3cec97,#396a9c,#630dc2);
     margin: 20px 0;
@@ -143,24 +171,8 @@ ul li{
 }
 
 
-.foot{
-    height: 110px;
-     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
-}
-
-#quote{
-    font-weight: 600;
-    text-decoration: bold !important;
-    color: black;
-    font-size: 40px;
-     padding-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 4.8px;
-    float:left;
-}
-#pic{
-    float:right;
-      padding-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 3px
+#row{
+    margin: 20px 0;
+     height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
 }
