@@ -73,14 +73,14 @@ ul li{
     padding: 20px 10px;
 }
 
-#rec1{
+#snack1{
     height: 350px;
     background: linear-gradient(#630dc2,#396a9c,#3cec97);
     margin: 20px 0;
     padding: 10px;
 }
 
-#rec2{
+#snack2{
     height: 400px;
     background: linear-gradient(#3cec97,#06bf48);
     margin: 20px 0;
@@ -89,7 +89,7 @@ ul li{
 
 
 
-#rec3{
+#snack3{
     height: 350px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
@@ -97,7 +97,7 @@ ul li{
 }
     
 
-#rec4{
+#snack4{
     height: 330px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
@@ -106,7 +106,7 @@ ul li{
     
 
 
-#rec5{
+#snack5{
     height: 330px;
     background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
@@ -114,15 +114,15 @@ ul li{
 }
     
 
-#rec6{
+#snack6{
     height: 330px;
-    background: linear-gradient(#74b62e,#aef35a);
+    background: linear-gradient(#03c048,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
     
 
-#rec7{
+#snack7{
     height: 310px;
     background: linear-gradient(#74b62e,#aef35a);
     margin: 20px 0;
@@ -130,7 +130,7 @@ ul li{
 }
     
 
-#rec8{
+#snack8{
     height: 420px;
     background: linear-gradient(#74b62e,#aef35a);
     margin: 20px 0;
@@ -138,16 +138,35 @@ ul li{
 }
     
 
-#rec9{
+#snack9{
     height: 410px;
     background: linear-gradient(#aef35a,#5cbc63);
     margin: 20px 0;
     padding: 10px;
 }
+
+#snack10{
+    height: 510px;
+    background: linear-gradient(#aef35a,#5cbc63);
+    margin: 20px 0;
+    padding: 10px;
+}
     
+#snack11{
+    height: 390px;
+    background: linear-gradient(#5cbc63,#03c048);
+    margin: 20px 0;
+    padding: 10px;
+}
 
+#snack12{
+    height: 300px;
+    background: linear-gradient(#5cbc63,#03c048);
+    margin: 20px 0;
+    padding: 10px;
+}
 
-#rec10{
+#snack13{
     height: 500px;
     background: linear-gradient(#5cbc63,#03c048);
     margin: 20px 0;
@@ -155,7 +174,7 @@ ul li{
 }
     
 
-#rec11{
+#snack14{
     height: 410px;
     background: linear-gradient(#06bf48,#3cec97);
     margin: 20px 0;
@@ -163,7 +182,7 @@ ul li{
 }
     
 
-#rec12{
+#snack15{
     height: 360px;
     background: linear-gradient(#3cec97,#396a9c,#630dc2);
     margin: 20px 0;
@@ -171,24 +190,8 @@ ul li{
 }
     
 
-.foot{
-    height: 110px;
-     background: linear-gradient(#524FFE,#763FE3,#9E2DC5,#FF017D);
-}
-
-#quote{
-    font-weight: 600;
-    text-decoration: bold !important;
-    color: black;
-    font-size: 40px;
-     padding-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 4.8px;
-    float:left;
-}
-#pic{
-    float:right;
-      padding-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 3px
+#row{
+    margin: 20px 0;
+     height: 100px;
+    background: linear-gradient(#360167,#6C02CD,#8F0B95,#BE0FC6);
 }
