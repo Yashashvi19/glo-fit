@@ -12,16 +12,15 @@ MySQL
 
 
 Installation:
-Brackets, 
-xampp
+Brackets(text-editor), 
+xampp,
+php7.x
 
 Usage:
+1. Clone the project in your system.
+2. Launch it by opening the index.html file in your browser.
 
 Contributors:
-Yashashvi Goyal
-
-Anjali Dwivedi:
-https://github.com/anjali0216
-
-Vartika Narayani:
-https://github.com/narayani-180
+1. Yashashvi Goyal: https://github.com/Yashashvi19
+2. Anjali Dwivedi: https://github.com/anjali0216
+3. Vartika Narayani: https://github.com/narayani-180
